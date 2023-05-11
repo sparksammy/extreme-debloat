@@ -1,0 +1,8 @@
+title: Custom
+description: Custom configuration
+privilege: Admin
+actions: []
+features:
+- tasks\packages.yml
+- tasks\miscreg.yml
+- tasks\cmd.yml

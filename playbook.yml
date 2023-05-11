@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Playbook>
+        <Name>Samuel Lord</Name>
+        <Username>Sparksammy</Username>
+        <ShortDescription>EXTREME DEBLOAT</ShortDescription>
+        <Title>Sparksammy Debloat Playbook</Title>
+        <Description>This Playbook do an extreme debloat. THIS COMES WITH NO WARRANTY.</Description>
+        <Details>Sparksammy Debloat Playbook.</Details>
+        <Version>1.0</Version>
+        <Requirements>
+                <Requirement>Internet</Requirement>
+                <Requirement>NoPendingUpdates</Requirement>
+                <Requirement>DefenderDisabled</Requirement>
+                <Requirement>NoAntivirus</Requirement>
+        </Requirements>
+        <ProductCode>69420</ProductCode>
+        <ProgressText>Reticulating splines, improving the user interface experience, installing replacement apps, and testing the system.</ProgressText>
+</Playbook>
