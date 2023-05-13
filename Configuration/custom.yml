@@ -3,5 +3,4 @@ description: Custom configuration
 privilege: Admin
 actions: []
 features:
-- tasks\miscreg.yml
 - tasks\cmd.yml

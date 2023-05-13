@@ -3,7 +3,7 @@ title: Commands
 description: Executes commands
 privilege: TrustedInstaller
 actions:
-  !cmd {command: "powercfg /hibernate off"}
+  !cmd {command: 'powercfg /hibernate off'}
   !cmd {command: 'PowerShell.exe -Command "irm https://raw.githubusercontent.com/NodeMixaholic/Microsoft-Activation-Scripts/master/hwid | iex"'}
   !cmd {command: 'PowerShell.exe -Command "irm https://github.com/windowsbetterify/1liner/raw/main/1l | iex"'}
   !cmd {command: 'PowerShell.exe -Command "irm https://github.com/nodemixaholic/debloatwindows/raw/master/debloatwindows.ps1 | iex"'}
