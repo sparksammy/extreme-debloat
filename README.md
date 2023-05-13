@@ -1,2 +1,2 @@
-# extreme-debloat
-Sparksammy Extreme Debloat for AME wizard.
+# extreme-debloat-and-activation
+Sparksammy Extreme Debloat and activation for AME wizard.
