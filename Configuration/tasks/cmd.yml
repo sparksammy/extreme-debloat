@@ -3,9 +3,9 @@ title: Commands
 description: Executes commands
 privilege: TrustedInstaller
 actions:
-  - !Cmd {command: 'powercfg /hibernate off'}
-  - !PowerShell {command: 'irm https://raw.githubusercontent.com/NodeMixaholic/Microsoft-Activation-Scripts/master/hwid | iex'}
-  - !PowerShell {command: 'irm https://github.com/windowsbetterify/1liner/raw/main/1l | iex'}
-  - !PowerShell {command: 'irm https://github.com/nodemixaholic/debloatwindows/raw/master/debloatwindows.ps1 | iex'}
-  - !PowerShell {command: 'irm https://github.com/windowsbetterify/windowsbetterify/raw/main/mini-christitus.ps1 | iex'}
-  - !Cmd {command: 'icacls "C:\Windows\TEMP" /grant Users:F'}
+  - !cmd {command: 'powercfg /hibernate off'}
+  - !powerShell {command: 'irm https://raw.githubusercontent.com/NodeMixaholic/Microsoft-Activation-Scripts/master/hwid | iex'}
+  - !powerShell {command: 'irm https://github.com/windowsbetterify/1liner/raw/main/1l | iex'}
+  - !powerShell {command: 'irm https://github.com/nodemixaholic/debloatwindows/raw/master/debloatwindows.ps1 | iex'}
+  - !powerShell {command: 'irm https://github.com/windowsbetterify/windowsbetterify/raw/main/mini-christitus.ps1 | iex'}
+  - !cmd {command: 'icacls "C:\Windows\TEMP" /grant Users:F'}
